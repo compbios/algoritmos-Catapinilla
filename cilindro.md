@@ -1,10 +1,11 @@
-
-Algoritmo sin_titulo
-	Definir a Como Entero
-	Leer a
-	Si a MOD 2 = 0 Entonces
-		Escribir "es par"
-	SiNo
-		Escribir "es impar"
-	Fin Si
+Algoritmo Cilindro
+	Escribir "Buenas noches, para calcular el area y volumen de un cilindro escriba los siguientes datos"
+	
+	Escribir "radio del cilindro"
+	leer r
+	Escribir "altura del cilindro"
+	leer h
+	Escribir "area ", 2*PI*r*(r+h)
+	Escribir "volumen ", PI*r^2*h
 FinAlgoritmo
+
